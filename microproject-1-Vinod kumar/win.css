@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(50% - 5px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #FFCD9E;
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.attribute-list {
+  width: 100%; /* Each list takes up half the width of the container */
+  padding: 5px;
+  background-color: #282828;
+  color: white;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column; /* Arrange list items in a column */
+}
+
+.attribute-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.attribute-list ul li {
+  margin-bottom: 10px;
+}
+
+  
+  
+  
+  
+  
